@@ -1,5 +1,27 @@
 # Color Java
 
+## JDK 8 build
+
+This is a build using Java 8, available in the GBIF third party repository.
+
+```xml
+  <repositories>
+    <repository>
+      <id>gbif-thirdparty</id>
+      <url>https://repository.gbif.org/content/repositories/thirdparty/</url>
+    </repository>
+  </repositories>
+
+  <dependency>
+    <groupId>mil.nga</groupId>
+    <artifactId>color</artifactId>
+    <version>1.0.1</version>
+    <classifier>jdk8</classifier>
+  </dependency>
+```
+
+See [GitHub](https://github.com/ngageoint/color-java) for the original version.
+
 #### Color Lib ####
 
 The Color Library was developed at the [National Geospatial-Intelligence Agency (NGA)](http://www.nga.mil/) in collaboration with [BIT Systems](https://www.caci.com/bit-systems/). The government has "unlimited rights" and is releasing this software to increase the impact of government investments by providing developers with the opportunity to take things in new directions. The software use, modification, and distribution rights are stipulated within the [MIT license](http://choosealicense.com/licenses/mit/).
